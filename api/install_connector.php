@@ -2,11 +2,11 @@
 require_once('function.php');
 $handlerUrl = 'https://php-simple-wrn9.vercel.app/handler.php';
 //creat dir for save chats (recommend using database)
-@mkdir(__DIR__ . '/chats/', 0775, true);
-if(!file_exists(__DIR__ . '/chats/'))
-{
-    echo 'error creat dir "chats"';
-}
+//@mkdir(__DIR__ . '/chats/', 0775, true);
+//if(!file_exists(__DIR__ . '/chats/'))
+//{
+   // echo 'error creat dir "chats"';
+//}
 else
 {
     $connector_id = getConnectorID();
