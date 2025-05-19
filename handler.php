@@ -1,6 +1,6 @@
 <?php
 require_once('function.php');
-$widgetUri = '';//detail page chat "https://example.com/index.php"
+$widgetUri = 'https://php-simple-wrn9.vercel.app/index.php';//detail page chat "https://example.com/index.php"
 $widgetName = 'ExampleSiteChatWidget';//name connector in widget
 $connector_id = getConnectorID();
 if (!empty($_REQUEST['PLACEMENT_OPTIONS']) && $_REQUEST['PLACEMENT'] == 'SETTING_CONNECTOR')
