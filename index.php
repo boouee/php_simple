@@ -1,7 +1,7 @@
 <body>
-    <li nk rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
          crossorigin="anonymous">
-    <sc ript src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></sc ript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></sc ript>
     <div class="container-fluid">
         <div class=" m-5">
             <div id="chat_history" class="row">
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div id="chat_form" class=" mt-5 mr-auto ml-auto mb-5">
-                <fo rm id="form_message">
+                <form id="form_message">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" placeholder="Name">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <sc ript>
+    <script>
         $(document).ready(function () {
             function updateChat()
             {
@@ -59,5 +59,5 @@
                 });
             });
         });
-    </sc ript>
+    </script>
 </body>
